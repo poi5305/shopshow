@@ -1,7 +1,7 @@
 // This is called with the results from from FB.getLoginStatus().
 function statusChangeCallback(response) {
 	//console.log('statusChangeCallback');
-	//console.log(response);
+	console.log(response);
 	
 	if (response.status === 'connected') {
 		// Logged into your app and Facebook.
@@ -35,7 +35,7 @@ function LoginCallback() {
 		//console.log(response);
 		//console.log('Successful login for: ' + response.name);
 		//document.getElementById('status').innerHTML ='Thanks for logging in, ' + response.name + '!';
-		document.getElementById('status').innerHTML ='成功登入，轉跳中';
+		document.getElementById('status').innerHTML ='成功登入，轉跳中';//<meta http-equiv="refresh" content="0;url=http://mepopeidia.com" />
 	});
 }
 
@@ -59,9 +59,9 @@ window.fbAsyncInit = function() {
 	//
 	// These three cases are handled in the callback function.
 	
-	FB.getLoginStatus(function(response) {
-		statusChangeCallback(response);
-	});
+	//FB.getLoginStatus(function(response) {
+	//	statusChangeCallback(response);
+	//});
 
 };
 

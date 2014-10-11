@@ -6,7 +6,7 @@
 Template url
 */
 $config['template'] = 'shopshow';
-$config['full_url'] = "http://localhost/~andy/csalt/index.php/";
+$config['full_url'] = "http://shopshow.muggle.tw";
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +23,7 @@ $config['full_url'] = "http://localhost/~andy/csalt/index.php/";
 |
 */
 //$config['base_url']	= '/index.php';
-$config['base_url']	= '/';
+$config['base_url']	= 'http://shopshow.muggle.tw';
 
 /*
 |--------------------------------------------------------------------------
