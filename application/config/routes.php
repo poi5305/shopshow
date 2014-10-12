@@ -51,9 +51,9 @@ $route['css/(:any)'] = "view/index/css/root/$1";
 $route['images/(:any)'] = "view/index/images/root/$1";
 $route['js/(:any)'] = "view/index/js/root/$1";
 
-$route['member/css/(:any)'] = "view/index/css/member/$1";
-$route['member/images/(:any)'] = "view/index/images/member/$1";
-$route['member/js/(:any)'] = "view/index/js/member/$1";
+//$route['member/css/(:any)'] = "view/index/css/member/$1";
+//$route['member/images/(:any)'] = "view/index/images/member/$1";
+//$route['member/js/(:any)'] = "view/index/js/member/$1";
 
 
 

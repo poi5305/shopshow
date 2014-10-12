@@ -1,0 +1,31 @@
+h1
+{
+	margin-bottom: 10px !important;
+}
+.page_block, .page_block_2, .page_block_3, .page_block_4
+{
+	display: inline-block;
+	min-height: 240px;
+	vertical-align: top;
+}
+.page_block_2 { width: 45%; }
+.page_block_3 { width: 31%; }
+.page_block_4 { width: 24%; }
+.member_info_item .item_name
+{
+	display: inline-block;
+	width: 150px;
+	text-align:right;
+}
+
+.member_info_item .item_value
+{
+	width: 200px;
+}
+
+.page_message
+{
+	text-align: center;
+	background-color: #F4AC71;
+	color: #000;
+}

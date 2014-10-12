@@ -9,6 +9,7 @@ use Facebook\FacebookRequestException;
 
 FacebookSession::setDefaultApplication('xxxxx','xxxxx');
 
+
 class Facebook extends CI_Model
 {
 	function __construct()

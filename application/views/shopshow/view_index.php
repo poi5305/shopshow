@@ -16,10 +16,10 @@ Released   : 20131118
 <title>ShopShow</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="css/default.css" charset="utf-8" rel="stylesheet" type="text/css" />
-<link href="css/fonts.css" charset="utf-8" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" type="text/css" href="css/default.css" media="screen, projection, tv ">
-
+<link href="/css/default.css" charset="utf-8" rel="stylesheet" type="text/css" />
+<link href="/css/fonts.css" charset="utf-8" rel="stylesheet" type="text/css"/>
+<link href="/css/shopshow.css" charset="utf-8" rel="stylesheet" type="text/css"/>
+<script src="/js/ckeditor/ckeditor.js"></script>
 </head>
 <body>
 <?php

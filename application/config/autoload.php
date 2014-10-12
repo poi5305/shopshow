@@ -109,7 +109,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('utility');
+$autoload['model'] = array('utility', 'quick_db');
 
 
 /* End of file autoload.php */

@@ -38,6 +38,7 @@ class Utility extends CI_Model
 	{
 		return date("Y-m-d H:i:s", time())."\t$status\t".substr(session_id(),0,12)."\t$app_name\t$function_name\t$title\t$content\n";
 	}
+	
 	function printer(&$status, &$app_name, &$function_name, &$title, &$content)
 	{
 		if(session_id() == '')
@@ -118,6 +119,19 @@ class Utility extends CI_Model
 		$this->email->send();
 		
 		$this->utility->log("msg", __CLASS__.".".__FUNCTION__, "Mail", "SendMail", "To: $to_mail, Title: $subject");
+	}
+	
+	function message($msg = 0)
+	{
+		$value = "Success!";
+		switch($msg)
+		{
+			case 1: $value = "更新成功"; break;
+			case 2: $value = "兩次新密碼不同"; break;
+			case 3: $value = "舊密碼錯誤"; break;
+			case 4: $value = "密碼不可以為空，或少於8個字"; break;
+		}
+		return $value;
 	}
 	
 	// For view handler
